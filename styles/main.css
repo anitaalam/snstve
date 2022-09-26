@@ -1,0 +1,167 @@
+/****** GLOBAL ******/
+html * {
+    font-family: gopher;
+}
+
+body {
+    background: #CEEBB7;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 75.6px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.theme-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    width: 1089px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 91px;
+    top: 20px;
+
+}
+.nav {
+    font-size: 16px;
+}
+.nav a {
+    margin-left: 67px;
+    color: #000;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    left: 1017px;
+    top: 1632px;
+    padding-bottom: 17px;
+}
+
+/****** HOMEPAGE ******/
+
+/****** ABOUT ******/
+
+/****** DEI 101 ******/
+
+/****** THE BLOG ******/
+
+/****** CONTACT ******/
+.first-bg {
+    background-color: #EE9257;
+    width: 1080px;
+    height: 1400px;
+    position: absolute;
+    left: 100px;
+    top: 194px;
+}
+
+.second-bg {
+    background-color: #E0BC80;
+    width: 930px;
+    height: 1250px;
+    position: absolute;
+    left: 175px;
+    top: 269px;
+}
+
+.connect {
+    width: 805px;
+    height: 329px;
+    position: absolute;
+    top: 331px;
+    left: 260px;
+}
+
+.connect h2 {
+    margin-top: 55px;
+}
+
+.connect-form {
+    width: 751px;
+    position: absolute;
+    left: 260px;
+    top: 727px;
+}
+
+.connect-form label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.5px;
+}
+
+.connect-form input {
+    background: #E0D578;
+}
+
+.first-last-name {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.first-last-name div:nth-child(2) {
+    margin-left: 71px;
+}
+
+#fname, #lname {
+    width: 340px;
+    height: 49px;
+    border: none;
+    margin-top: 10px;
+}
+
+#email {
+    width: 751px;
+    height: 49px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#message {
+    width: 751px;
+    height: 144px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.flowers {
+    width: 207px;
+    height: 301px;
+    position: absolute;
+    left: 197px;
+    top: 1193px;
+}
+
+.puzzle {
+    width: 232px;
+    height: 280px;
+    position: absolute;
+    left: 842px;
+    top: 1203px;
+}
+
+
+
+
