@@ -13,23 +13,31 @@ a {
 
 h1 {
     font-weight: 900;
-    font-size: 60px;
-    line-height: 75.6px;
 }
 
 h2 {
     font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
+}
+
+.navigation {
+    width: 92%;
+}
+
+.logo {
+    height: 75px;
 }
 
 .theme-wrapper {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin: 0 auto;
     position: relative;
 }
 
-header {
+.navbar-toggler {
+    border: none;
+}
+
+/* header {
     width: 1089px;
     height: 150px;
     display: flex;
@@ -39,7 +47,7 @@ header {
     left: 91px;
     top: 20px;
 
-}
+} */
 .nav {
     font-size: 16px;
 }
@@ -50,12 +58,11 @@ header {
 
 footer p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 8px;
     line-height: 18px;
-    position: absolute;
-    left: 1017px;
-    top: 1632px;
-    padding-bottom: 17px;
+    width: 90%;
+    text-align: right;
+    margin: 0 auto;
 }
 
 /****** HOMEPAGE ******/
@@ -69,45 +76,50 @@ footer p {
 /****** CONTACT ******/
 .first-bg {
     background-color: #EE9257;
-    width: 1080px;
-    height: 1400px;
-    position: absolute;
-    left: 100px;
-    top: 194px;
+    width: 90%;
+    height: 507px;
+    margin: 0 auto;
 }
 
 .second-bg {
     background-color: #E0BC80;
-    width: 930px;
-    height: 1250px;
+    width: 75%;
+    height: 71.5%;
     position: absolute;
-    left: 175px;
-    top: 269px;
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .connect {
-    width: 805px;
-    height: 329px;
+    width: 61%;
     position: absolute;
-    top: 331px;
-    left: 260px;
+    top: 23%;
+    left: 20%;
+}
+
+.connect h1 {
+    font-size: 22px;
+    line-height: 20px;
 }
 
 .connect h2 {
-    margin-top: 55px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 22px;
 }
 
 .connect-form {
-    width: 751px;
+    width: 61%;
     position: absolute;
-    left: 260px;
-    top: 727px;
+    top: 48%;
+    left: 20%;
 }
 
 .connect-form label {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 25.5px;
+    font-size: 12px;
 }
 
 .connect-form input {
@@ -116,52 +128,355 @@ footer p {
 
 .first-last-name {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+}
+.first-last-name div {
+    width: 100%;
+}
+
+.first-last-name div:nth-child(2) {
+    margin-left: 20px;
+}
+
+#fname, #lname {
+    width: 100%;
+    height: 20px;
+    border: none;
+}
+
+#email {
+    width: 100%;
+    height: 20px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+#message {
+    width: 100%;
+    height: 40px;
+    border: none;
+    /* margin-bottom: 5px; */
+}
+
+.flowers {
+    width: 60px;
+    position: absolute;
+    top: 77%;
+    left: 14%;
+}
+
+.puzzle {
+    width: 60px;
+    position: absolute;
+    top: 79%;
+    left: 68%;
+}
+
+
+/* ========================
+Media Queries
+========================= */
+@media (min-width: 576px) {
+/****** GLOBAL ******/
+.logo {
+    height: 90px;
+}
+
+/****** HOMEPAGE ******/
+
+/****** ABOUT ******/
+
+/****** DEI 101 ******/
+
+/****** THE BLOG ******/
+
+/****** CONTACT ******/
+.first-bg {
+    height: 680px;
+}
+
+.second-bg {
+    width: 80%;
+    height: 76%;
+    top: 145px;
+}
+
+.connect {
+    width: 65%;
+    top: 22%;
+    left: 17%;
+}
+
+.connect h1 {
+    font-size: 35px;
+}
+
+.connect h2 {
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.connect-form {
+    width: 65%;
+    top: 48%;
+    left: 17%;
+}
+
+.connect-form label {
+    font-size: 14px;
+}
+
+.first-last-name div:nth-child(2) {
+    margin-left: 55px;
+}
+
+#fname, #lname, #email {
+    height: 28px;
+}
+
+#message {
+    height: 60px;
+}
+
+.flowers {
+    width: 80px;
+    top: 77%;
+    left: 13%;
+}
+
+.puzzle {
+    width: 90px;
+    top: 78%;
+    left: 73%;
+}
+}
+
+@media (min-width: 768px) {
+/****** GLOBAL ******/
+.logo {
+    height: 110px;
+}
+
+footer p {
+    font-size: 11px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/****** HOMEPAGE ******/
+
+/****** ABOUT ******/
+
+/****** DEI 101 ******/
+
+/****** THE BLOG ******/
+
+/****** CONTACT ******/
+.first-bg {
+    height: 810px;
+}
+
+.second-bg {
+    height: 76%;
+    top: 168px;
+}
+
+.connect {
+    width: 66%;
+    top: 24%;
+    left: 17%;
+}
+
+.connect h1 {
+    font-size: 43px;
+}
+
+.connect h2 {
+    margin-top: 49px;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.connect-form {
+    top: 51%;
+}
+
+.connect-form label {
+    font-size: 15px;
+}
+
+.first-last-name, #email {
+    margin-bottom: 12px;
+}
+
+.first-last-name div:nth-child(2) {
+    margin-left: 75px;
+}
+
+#fname, #lname, #email {
+    height: 35px;
+}
+
+#message {
+    height: 90px;
+}
+
+.flowers {
+    width: 12%;
+    top: 78%;
+}
+
+.puzzle {
+    width: 13%;
+    top: 79%;
+    left: 73%;
+}
+}
+
+@media (min-width: 992px) {
+/****** GLOBAL ******/
+.logo {
+    height: 135px;
+}
+
+/****** HOMEPAGE ******/
+
+/****** ABOUT ******/
+
+/****** DEI 101 ******/
+
+/****** THE BLOG ******/
+
+/****** CONTACT ******/
+.first-bg {
+    height: 1100px;
+}
+
+.second-bg {
+    top: 210px;
+}
+
+.connect {
+    top: 22%;
+}
+
+.connect h1 {
+    font-size: 52px;
+}
+
+.connect h2 {
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.connect-form {
+    top: 46%;
+}
+
+.connect-form label {
+    font-size: 17px;
+}
+
+.first-last-name, #email {
+    margin-bottom: 20px;
+}
+
+#fname, #lname, #email {
+    height: 45px;
+}
+
+.flowers {
+    width: 17%;
+    top: 71%;
+}
+
+.puzzle {
+    width: 20%;
+    top: 72%;
+    left: 67%;
+}
+}
+
+@media (min-width: 1280px) {
+/****** GLOBAL ******/
+.logo {
+    height: 150px;
+}
+
+/****** HOMEPAGE ******/
+
+/****** ABOUT ******/
+
+/****** DEI 101 ******/
+
+/****** THE BLOG ******/
+
+/****** CONTACT ******/
+.first-bg {
+    height: 1400px;
+}
+
+.second-bg {
+    height: 77%;
+    top: 250px;
+}
+
+.connect {
+    top: 21%;
+}
+
+.connect h1 {
+    font-size: 60px;
+}
+
+.connect h2 {
+    font-size: 40px;
+    margin-top: 80px;
+    line-height: 50px;
+}
+
+.connect-form {
+    top: 43.5%;
+}
+
+.connect-form label {
+    font-size: 20px;
 }
 
 .first-last-name div:nth-child(2) {
     margin-left: 71px;
 }
 
-#fname, #lname {
-    width: 340px;
-    height: 49px;
-    border: none;
-    margin-top: 10px;
+.first-last-name, #email {
+    margin-bottom: 30px;
 }
 
-#email {
-    width: 751px;
+#fname, #lname, #email {
     height: 49px;
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 30px;
 }
 
 #message {
-    width: 751px;
     height: 144px;
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 30px;
+}
 }
 
+@media (min-width: 1440px) {
+/****** HOMEPAGE ******/
+
+/****** ABOUT ******/
+
+/****** DEI 101 ******/
+
+/****** THE BLOG ******/
+
+/****** CONTACT ******/
 .flowers {
-    width: 207px;
-    height: 301px;
-    position: absolute;
-    left: 197px;
-    top: 1193px;
+    width: 14%;
 }
 
 .puzzle {
-    width: 232px;
-    height: 280px;
-    position: absolute;
-    left: 842px;
-    top: 1203px;
+    width: 17%;
+    left: 69%;
 }
-
-
-
-
+}
